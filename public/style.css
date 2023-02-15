@@ -1,0 +1,78 @@
+:root {
+  --primary: #E96F32;
+}
+
+.btn {
+  border-radius: 50px !important;
+}
+
+.btn-warning {
+  color: #fff !important;
+}
+
+.btn-warning:hover {
+  background: #b44711 !important;
+}
+
+.btn-outline-warning {
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+.btn-outline-warning:hover {
+  background: var(--primary); !important;
+  color: #fff !important;
+}
+
+.text-orange {
+  color: var(--primary);
+}
+
+.btn-warning {
+  background: var(--primary) !important;
+}
+
+.bg-orange {
+  color: #fff;
+  background: var(--primary);
+}
+
+.card {
+  border: none !important;
+  border-radius: 30px !important;
+}
+
+.bg-orange {
+  background: #f6dbce;
+  color: var(--primary);
+}
+
+.bg-primary {
+  background: var(--primary) !important;
+}
+
+.btn-outline-white {
+  border: 1px solid #fff !important;
+  color: #fff !important;
+}
+
+header {
+  background: radial-gradient(#fff, #fdefe8);
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  color: #333;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  button.d-block {
+    width: 100%;
+  }
+}
